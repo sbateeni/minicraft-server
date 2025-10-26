@@ -1,0 +1,28 @@
+# Performance optimization settings
+# Uncomment and adjust these settings in server.properties for better performance
+
+# Increase server thread priority (Windows)
+# use-native-transport=true
+
+# Reduce view distance for better performance on lower-end systems
+# view-distance=8
+
+# Reduce simulation distance for better performance
+# simulation-distance=8
+
+# Disable spawn protection for private servers
+# spawn-protection=0
+
+# Increase network compression threshold for better network performance
+# network-compression-threshold=512
+
+# Enable jvm optimizations
+# Add these JVM flags to start scripts for better performance:
+# -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC
+# -XX:+AlwaysPreTouch -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=4M
+# -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40
+# -XX:G1MixedGCCountTarget=8 -XX:G1MixedGCLiveThresholdPercent=90
+# -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32
+# -XX:+PerfDisableSharedMem -XX:G1SATBBufferEnqueueingThresholdPercent=30
+# -XX:G1ConcMarkStepDurationMillis=5 -XX:G1ConcRSHotCardLimit=16
+# -XX:G1ConcRefinementServiceIntervalMillis=150
